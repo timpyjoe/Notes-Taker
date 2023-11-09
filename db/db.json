@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"title":"ID Note","text":"hopefully this note has an ID\n","id":"9366792b-a1f8-4010-96a0-1ca27d23005c"},{"title":"Here is a title","text":"here is a body","id":"d3d913d2-9d32-4830-8d7d-8f688b39b635"},{"title":"I'm adding a new now","text":"Here is the new note (not now)","id":"18f4cc10-ee7f-42be-b2e9-2ee9a343957e"}]
