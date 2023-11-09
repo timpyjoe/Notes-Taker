@@ -39,11 +39,26 @@ app.post('/api/notes', (req, res) => {
       if (err){
         console.log(err)
       }
-    });
-
-  
+    });  
   });
 })
+
+// app.delete('/api/notes', (req, res) => {
+//   fs.readFile('./db/db.json', (err, data) => {
+//     const notesArray = JSON.parse(data);
+//     notesArray.forEach((note) => {
+//     if (note.id === req.body.id){
+//       notesArray.splice(indexOf(note));
+//     }}
+//     )
+//     fs.writeFile('./db/db.json', JSON.stringify(notesArray), (err) => {
+//       if (err){
+//         console.log(err)
+//       }
+//     }); 
+
+//   })  
+// })
 
 
 
